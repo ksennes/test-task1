@@ -1,0 +1,26 @@
+.info-layout {
+  &__container {
+      padding: 85px 25%;
+  }
+
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #7ed321;
+    margin-bottom: 15px;
+  }
+
+  p {
+    line-height: 1.71;
+    text-align: left;
+    margin-bottom: 35px;
+  }
+}
+
+@media (max-width: 375px) {
+  .info-layout {
+    &__container {
+      padding: 25px;
+    }
+  }
+}

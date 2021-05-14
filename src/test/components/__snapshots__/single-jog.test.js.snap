@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SingleJog component sould match the last snapshot with jog 1`] = `
+<div
+  className="single-jog"
+>
+  <div
+    className="single-jog__icon"
+  >
+    <img
+      src="test-file-stub"
+    />
+  </div>
+  <div
+    className="single-jog__details"
+  >
+    <p
+      className="date"
+    />
+    <h4>
+      Distance: 
+      <span />
+    </h4>
+    <h4>
+      Time: 
+      <span />
+    </h4>
+  </div>
+</div>
+`;
+
+exports[`SingleJog component sould match the last snapshot without jog 1`] = `
+<div
+  className="single-jog"
+>
+  <div
+    className="single-jog__icon"
+  >
+    <img
+      src="test-file-stub"
+    />
+  </div>
+  <div
+    className="single-jog__details"
+  >
+    <p
+      className="date"
+    />
+    <h4>
+      Distance: 
+      <span />
+    </h4>
+    <h4>
+      Time: 
+      <span />
+    </h4>
+  </div>
+</div>
+`;

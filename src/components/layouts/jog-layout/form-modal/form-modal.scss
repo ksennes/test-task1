@@ -1,0 +1,68 @@
+.modal {
+  position: fixed;
+  top: 20%;
+  height: 370px;
+  border-radius: 44px;
+  background-color: #7ed321;
+  padding: 80px 88px 47px 88px;
+
+  .form {
+    width: 320px;
+
+    .submit-button {
+      width: 320px;
+      height: 42px;
+      border-radius: 25.2px;
+      border: solid 2px #fff;
+      background-color: #7ed321;
+      margin-top: 20px;
+      font-size: 12.6px;
+      font-weight: bold;
+      color: #fff;
+    }
+  }
+
+  .cancel {
+    position: absolute;
+    top: 27px;
+    right: 27px;
+  }
+
+  .cancel:hover {
+    cursor: pointer;
+  }
+
+  .form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+
+    label {
+      font-size: 16px;
+    }
+
+    .form-control {
+      padding: 0 10px;
+      width: 236px;
+      height: 31px;
+      border-radius: 7px;
+      border: solid 1px #979797;
+      background-color: #fff;
+    }
+  }
+}
+
+
+@media (max-width: 750px) {
+  .modal {
+    height: 380px;
+    padding: 85px 35px 37px 35px;
+
+    .cancel {
+      img {
+        max-width: 18px;
+      }
+    }
+  }
+}

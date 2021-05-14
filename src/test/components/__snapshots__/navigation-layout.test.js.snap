@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavigationLayout component sould match the last snapshot with isLogged prop 1`] = `
+<div
+  className="navigation-layout"
+  style={null}
+>
+  <div
+    className="navigation-layout__logo"
+  >
+    <img
+      src="test-file-stub"
+    />
+  </div>
+  <div
+    className="navigation-layout__options"
+  >
+    
+  </div>
+</div>
+`;
+
+exports[`NavigationLayout component sould match the last snapshot without props 1`] = `
+<div
+  className="navigation-layout"
+  style={null}
+>
+  <div
+    className="navigation-layout__logo"
+  >
+    <img
+      src="test-file-stub"
+    />
+  </div>
+  <div
+    className="navigation-layout__options"
+  >
+    
+  </div>
+</div>
+`;

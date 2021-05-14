@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormModal Component sould match the last snapshot with props 1`] = `
+<div
+  className="modal"
+  style={
+    Object {
+      "display": "none",
+    }
+  }
+>
+  <div
+    className="cancel"
+    onClick={[Function]}
+  >
+    <img
+      src="test-file-stub"
+    />
+  </div>
+  <form
+    className="form"
+    onSubmit={[Function]}
+  >
+    <div
+      className="form-group"
+    >
+      <label>
+        Distance
+      </label>
+      <input
+        className="form-control"
+        id="distance"
+        onChange={[Function]}
+        type="text"
+        value="15"
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label>
+        Time
+      </label>
+      <input
+        className="form-control"
+        id="time"
+        onChange={[Function]}
+        type="text"
+        value="15"
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label>
+        Date
+      </label>
+      <div
+        className="react-datepicker-wrapper"
+      >
+        <div
+          className="react-datepicker__input-container"
+        >
+          <input
+            className="form-control"
+            disabled={false}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            readOnly={false}
+            type="text"
+            value="20.02.2000"
+          />
+        </div>
+      </div>
+    </div>
+    <button
+      className="submit-button"
+      type="submit"
+    >
+      Save
+    </button>
+  </form>
+</div>
+`;
